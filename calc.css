@@ -1,0 +1,64 @@
+body {
+ background-color: black;   
+ color: white;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 285px;
+    height: 4em;
+    text-align: right;
+    font-size: large;
+}
+
+.rowone {
+    background-color:grey;
+    color: beige;
+}
+
+.btn {
+    margin: 10px;
+    padding: 12px;
+    font-size: 25px;
+    border-radius: 40%;
+   /*  display:inline-flex;
+   justify-content: ;*/
+}
+
+.btn:hover {
+    background-color: rgb(130, 214, 227);
+    color: white;
+}
+
+.btn:active {
+    background-color: #bfcabf;
+    box-shadow: o 5px #666;
+    transform: translateY(4px);
+
+}
+
+.last {
+    background-color: rgb(223, 44, 44);
+}
+
+.last:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.last:active {
+    background-color: #bfcabf;
+    box-shadow: o 5px #666;
+    transform: translateY(4px);
+
+}
+
+.lastcol {
+    background-color: rgb(179, 177, 240);
+    margin-right: 85px;
+}
+
